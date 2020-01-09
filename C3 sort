@@ -47,12 +47,11 @@ public void insertSort(){
       a[in] = a[in-1]; //这个值右移动一位
       --in;　//在局部有序的部分 go left 一位（去比较下一位　和　出列的）向左移动
     }
+    a[in] = temp; // 
   }
-
-
-
-
 }
+
+
 
 
 
