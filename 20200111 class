@@ -31,3 +31,6 @@ var http = require();
 6.translet variable --序列话  objectinputStream 
 redis queue
 
+micro service
+7. RestTemplate restTemplate.
+   restTemplate.getForEntiry(url,"");
