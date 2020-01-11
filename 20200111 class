@@ -23,5 +23,11 @@ var http = require();
 
 
 大而广理解
-
+1. UN PW SERVER
+2. 难 易 
+3. array/arrayList, hashmap/hashtree,  throw/throws , String class/ Interger,Long ; wait/sleep
+4. runable 
+5. life cycle
+6.translet variable --序列话  objectinputStream 
+redis queue
 
