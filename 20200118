@@ -87,3 +87,18 @@ src-api
 MVN
 mvn install 
    -views
+compile/test/
+scop: compile/test/provide
+https://www.bilibili.com/video/av36557763/
+
+spring intercepter security//过滤
+intercepter extend HandlerInterceptorAdapter
+
+// use framwork handle exception
+@ControllerAdvice
+@ExceptionHandler(Exception.class)
+
+AOP
+@Aspect
+
+@Pointcut
