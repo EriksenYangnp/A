@@ -1,0 +1,76 @@
+02
+
+const http = requir('http');
+http.createServer(requestListner: functiion(request: response)){
+//send HTTP
+//HTTP 200 OK
+response.writeHead(statusCode 200, header:{'Contest-Type': ''test/plain})
+//send "hello world"
+response.end(chunk: 'Hello Server')
+}).listen(port:8888)
+
+console.log('Server runing at http://127.0.0.1:8888/')
+}
+
+03
+let a =1, b=2, c=3
+console.(a,b,c)
+let[x,y,z] = [1,2,3]
+console(x,y,z)
+
+let user = {name:'A', age:18}
+
+let name1 = user.name
+let age1 = user.age
+console(name1,age1)
+
+04
+let name='Mike'
+let info =`My name is ${name}`
+
+06 methoe
+const person1 = {
+  sayHi:function(){
+    console.('Hi')
+    }
+}
+const person2 = {
+  sayHi(){
+  console.('Hi')
+  }
+}
+
+07
+let person = {name:'Amy',age:15}
+
+let someone = {...person}
+
+08
+function showInfor(name, age=17){
+  console(name+ ","+ age)
+}
+showInfo("Amy", age:18) 18
+showInfo("Amy")17
+showInfo("Amy", age:undefined) 17
+showInfo("Amy", age:null) null
+
+09
+
+
+var f3=(a,b) =>{
+  let result = a+b
+  return result
+}
+var f4 = (a,b) => a+b
+
+const //
+
+{
+var = 1
+let = 2
+}
+var 
+let
+
+var// 变量提升
+let//
