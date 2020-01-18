@@ -94,6 +94,10 @@ https://www.bilibili.com/video/av36557763/
 spring intercepter security//过滤
 intercepter extend HandlerInterceptorAdapter
 
+MVN
+https://www.bilibili.com/video/av36557763/
+
+
 // use framwork handle exception
 @ControllerAdvice
 @ExceptionHandler(Exception.class)
