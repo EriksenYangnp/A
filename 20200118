@@ -77,3 +77,13 @@ let//
 
 -------------------
 axios
+-----------------------------
+VUE
+https://github.com/PanJiaChen/vue-element-admin
+配置
+src-api
+-----------------
+
+MVN
+mvn install 
+   -views
