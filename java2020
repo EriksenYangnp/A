@@ -200,6 +200,36 @@ OOP
       Lifecycle: instantiating an ApplicationContext
    
     Spring code
+    如何新建一个SPIRNG项目: 
+    1.IDE: NEW spring web-application 
+    2. Create bean
+    3. 配置spring-config.xml
+          <!--配置JavaBean：指定id和要配置的Javabean-->
+          <bean id="student" class="com.alexanderbai.bean.Student">
+              <!--配置JavaBean的属性-->
+              <property name="name" value="AlexanderBai"/>
+              <property name="id" value="110"/>
+          </bean>
+    ４.新建测试类
+         ApplicationContext applicationContext =  new ClassPathXmlApplicationContext("spring-config.xml");
+        //获取Student的实例
+         User user = (User) applicationContext.getBean("user");
+     
+     
+    Spring aop terminologies
+
+        joinpoint —> in target object(crud in UserServiceImpl), all methods where can get enhanced
+        pointcut —> in target object, methods that are already enhanced
+        advice —> code that enhanced (method.invoke)
+        target —> proxied object (UserSerivceImpl)
+        weaving —> the process to put advice into pointcut
+        proxy —> after weaving, the formed proxy object
+        aspect == pointcut + advice
+
+
+    
+    
+    
     https://docs.spring.io/spring-framework/docs/current/spring-framework-reference/core.html#beans
     https://www.journaldev.com/2696/spring-interview-questions-and-answers
     https://www.baeldung.com/spring-interview-questions
